@@ -1,0 +1,64 @@
+* {
+  background-color: #f5f5f5;
+  font-family: "Noto Serif", serif;
+}
+h1 {
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 3.3em;
+  margin: 1.3em 0;
+  padding: 0.3em 0;
+  font-weight: 900;
+  color: #d2691e;
+}
+.homeul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 10%;
+}
+.homeul li {
+  text-align: center;
+}
+.homeul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.homeul li a:hover, button a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+.homeul li figcaption {
+  font-weight: 800;
+  font-size: 1.3em;
+  padding: 0.3em 0;
+}
+div {
+  padding: 0 8em;
+}
+img,
+button {
+  display: block;
+  margin: 0 auto;
+}
+h2 {
+  background-color: #ffffff;
+  padding-left: 1em;
+  text-decoration: underline;
+  color: #d2691e;
+}
+p,
+.list {
+  font-size: 1.2em;
+}
+button {
+  padding: 1em;
+}
+button a {
+  color: #d2691e;
+  font-weight: 800;
+  font-size: 2em;
+  text-decoration: none;
+  background-color: #ffffff;
+}
